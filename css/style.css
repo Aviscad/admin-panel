@@ -1,3 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --main-color: #277BC0;
+    --white: #fff;
+    --black: #000;
+}
 html{
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: var(--white)
+}
+header{
+    padding: 3rem 0;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main{
+    color: var(--black);
+}
+input[type="search"]{
+    border-radius: 25px;
+    padding: .3rem .7rem .3rem .7rem;
+}
+button{
+    border: none;
+    color: var(--white);
+    background-color: var(--main-color);
+    padding: .3rem 1rem;
+    border-radius: 25px;
+}
+.dashboard{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.dashboard-title{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: .5rem 0 .5rem .5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    user-select: none;
+}
+.dashboard-group{
+    list-style: none;
+    margin: .5rem 0;
+    padding: 0;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.dashboard-group_item{
+    padding: .3rem .6rem;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hidden{
+    display: none;
+}
+.visuallyHidden{
+    opacity: 0;
+}
+.header-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: .3rem;
+}
+.header-search span{
+    font-weight: bold;
+    font-size: 12px;
+}
+.header-search img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.header-info img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header-info{
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: .5rem;
+}
+.header-info_description{
+    display: flex;
+    flex-direction: column;
+}
+.header-info_description p{
+    margin: 0;
+}
+.header-info_actions{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: .3rem;
 }

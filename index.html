@@ -4,29 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/eeb3265b69.js" crossorigin="anonymous"></script>
     <title>Admin Panel</title>
 </head>
 <body>
-    <nav>
-        <span>Dashboard</span>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
+    <nav class="dashboard">
+        <div class="dashboard-title"><i class="fas fa-th-large"></i>Dashboard</div>
+        <ul class="dashboard-group hidden visuallyHidden">
+            <li class="dashboard-group_item"><i class="fas fa-home"></i>  Home</li>
+            <li class="dashboard-group_item"><i class="far fa-id-card"></i>  Profile</li>
+            <li class="dashboard-group_item"><i class="fas fa-envelope"></i>  Messages</li>
+            <li class="dashboard-group_item"><i class="fas fa-clock"></i>  History</li>
+            <li class="dashboard-group_item"><i class="fas fa-tasks"></i>  Tasks</li>
+            <li class="dashboard-group_item"><i class="fas fa-users"></i>  Communities</li>
         </ul>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+        <ul class="dashboard-group hidden visuallyHidden">
+            <li class="dashboard-group_item"><i class="fas fa-cog"></i>  Settings</li>
+            <li class="dashboard-group_item"><i class="fas fa-question-circle"></i>  Support</li>
+            <li class="dashboard-group_item"><i class="fas fa-shield-alt"></i>  Privacy</li>
         </ul>
     </nav>
     <header>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi quibusdam aliquam officia error adipisci soluta magnam nihil odio laudantium accusamus, deleniti debitis consectetur quod reiciendis dolorem tempore dolor iste!</p>
+        <div class="header-search">
+            <i class="fas fa-search"></i>
+            <input type="search" name="search" id="search">
+            <i class="fas fa-bullhorn"></i>
+            <img src="./assets/img/cat-image.jpg" alt="Cat Image">
+            <span><b>Cool Cat</b></span>
+        </div>        
+        <div class="header-info">
+            <img src="./assets/img/cat-image.jpg" alt="Cat Image">
+            <div class="header-info_description">
+                <p>Hi There,</p>
+                <p><b>Cool Cat (@coolcat)</b></p>
+            </div>
+            <div class="header-info_actions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+
     </header>
     <main>
         <section>
@@ -40,7 +60,12 @@
         <aside>
             <section>Announcements</section>
             <section>Trending</section>
+            <!-- <a href="https://www.freepik.com">designed by Catalyststuff - Freepik.com</a> -->
+    <script src="./js/script.js"></script>
         </aside>
     </main>
+
+
+    
 </body>
 </html>
