@@ -14,4 +14,4 @@ Images made by [catalyststuff](https://www.freepik.es/autor/catalyststuff)
 2. [Dog Image](https://www.freepik.com/free-vector/cute-dog-sticking-her-tongue-out-cartoon-icon-illustration_12681147.htm#&position=19&from_view=author)
 3. [Tyrannosaurus Rex](https://www.freepik.com/free-vector/cute-blue-tyrannosaurus-rex_10576745.htm#&position=46&from_view=author)
 
-Favicon made by [Freepick - Flaticon](https://www.flaticon.com/free-icons/admin")
+Favicon made by [Freepick - Flaticon](https://www.flaticon.com/free-icon/buildings_937463#)
