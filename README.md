@@ -1,6 +1,6 @@
 # admin-panel
 
-## [Live Demo](https://github.com/Aviscad/admin-panel/blob/main/assets/img/showcase/dashboard-view.png)
+## [Live Demo](https://aviscad.github.io/admin-panel/)
 
 ### Dashboard View
 
